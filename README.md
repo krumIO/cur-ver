@@ -13,7 +13,7 @@ Writes to stdout.
 Run manually from the command line with:
 
 ```bash
-npx run curr-ver > ./.version.json
+npx curr-ver > ./.version.json
 ```
 
 Install as a utility in your project:
