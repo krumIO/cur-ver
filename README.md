@@ -1,4 +1,4 @@
-# Cur-Ver
+# Curr-Ver
 
 Write current version details to a json file.
 
@@ -13,13 +13,13 @@ Writes to stdout.
 Run manually from the command line with:
 
 ```bash
-npx run cur-ver > ./.version.json
+npx run curr-ver > ./.version.json
 ```
 
 Install as a utility in your project:
 
 ```bash
-npm install --save-dev cur-ver
+npm install --save-dev curr-ver
 ```
 
 Run as a commit hook with a utility like [Husky](https://www.github.com/typicode/husky). In your package.json:
@@ -27,8 +27,8 @@ Run as a commit hook with a utility like [Husky](https://www.github.com/typicode
 ```json
   "husky": {
     "hooks": {
-      "post-commit": "cur-ver > ./.version.json",
-      "post-checkout": "cur-ver > ./.version.json"
+      "post-commit": "curr-ver > ./.version.json",
+      "post-checkout": "curr-ver > ./.version.json"
     }
   }
 ```
