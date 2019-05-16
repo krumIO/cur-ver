@@ -1,6 +1,6 @@
 {
   "name": "curr-ver",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "No nonsense way to write current version details to a file.",
   "main": "index.js",
   "bin": {
