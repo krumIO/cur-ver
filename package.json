@@ -1,0 +1,30 @@
+{
+  "name": "cur-ver",
+  "version": "1.0.0",
+  "description": "No nonsense way to write current version details to a file.",
+  "main": "index.js",
+  "bin": {
+    "cur-ver": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krumio/cur-ver.git"
+  },
+  "keywords": [
+    "git",
+    "version",
+    "file"
+  ],
+  "author": "Colin Griffin <colin@krum.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krumio/cur-ver/issues"
+  },
+  "homepage": "https://github.com/krumio/cur-ver#readme",
+  "dependencies": {
+    "yargs": "^13.2.4"
+  }
+}
