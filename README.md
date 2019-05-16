@@ -1,6 +1,6 @@
 # Curr-Ver
 
-Write current version details to a json file.
+Write current version details in the format of a json object to stdout.
 
 ## Description
 
