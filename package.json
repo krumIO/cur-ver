@@ -4,7 +4,7 @@
   "description": "No nonsense way to write current version details to a file.",
   "main": "index.js",
   "bin": {
-    "cur-ver": "./index.js"
+    "curr-ver": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
