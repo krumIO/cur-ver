@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/krumio/cur-ver#readme",
   "dependencies": {
-    "yargs": "^15.3.1"
+    "yargs": "^16.0.3"
   }
 }
