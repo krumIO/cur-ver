@@ -1,0 +1,16 @@
+version: 2
+registries:
+  npm-registry-krumware-jfrog-io-krumware-api-npm-npm-krumio:
+    type: npm-registry
+    url: https://krumware.jfrog.io/krumware/api/npm/npm-krumIO/
+    token: "${{secrets.NPM_REGISTRY_KRUMWARE_JFROG_IO_KRUMWARE_API_NPM_NPM_KRUMIO_TOKEN}}"
+
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  registries:
+  - npm-registry-krumware-jfrog-io-krumware-api-npm-npm-krumio
